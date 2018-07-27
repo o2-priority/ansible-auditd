@@ -2,4 +2,4 @@
 - name: Install packages
   yum:
     name: audit
-    state: installed
+    state: present
