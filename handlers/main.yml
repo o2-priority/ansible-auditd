@@ -3,3 +3,7 @@
   service:
     name: auditd
     state: restarted
+  register: result
+  
+- debug: msg=result.stdout_lines
+
